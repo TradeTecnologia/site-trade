@@ -1,0 +1,28 @@
+@media (max-width: 1024px){
+	.select .selected .toggle i {
+	    font-size: 30px; 
+	}
+	.display-1 {
+	    font-size: 20px;
+	    line-height: 30px
+	}
+
+}
+@media (max-width: 768px){
+   .nav-mobile nav ul li {
+	    margin-bottom: 0.5em;
+	    transition: 0.3s ease-out;
+	    text-indent: 13px;
+	}
+	.nav-mobile nav ul li {
+	    margin-bottom: 0.5em;
+	    transition: 0.3s ease-out;
+	    text-indent: 13px;
+	}
+}	
+
+@media (max-width: 480px){
+   .item .flex-row .flex-between{
+       flex-direction: column;
+   }
+}

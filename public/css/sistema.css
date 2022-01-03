@@ -1,0 +1,938 @@
+.sistema {
+  min-height: 100vh;
+}
+
+.sistema #main {
+  margin-top: 0px;
+  width: 85%;
+  background: #F9FCF7;
+  box-shadow: -2px 0 35px 0 rgba(39, 84, 77, 0.35);
+  min-height: 100vh;
+  right: 0;
+  margin-left: 15%;
+  position: relative;
+}
+
+@media screen and (max-width: 1024px) {
+  .sistema #main {
+    margin-left: 18%;
+    width: 82%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sistema #main {
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 65.14px;
+  }
+}
+
+.sistema #main .application {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.sistema #main .application .container {
+  width: 85%;
+  max-width: 85%;
+}
+
+.sistema #main .application .container .breadcrumb {
+  width: 100%;
+  margin-bottom: 22px;
+}
+
+.sistema #main .application .container .breadcrumb ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sistema #main .application .container .breadcrumb ul li {
+  min-width: 70px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background-color: #CBD9FF;
+  box-sizing: border-box;
+  color: #081946;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 17px;
+  padding: 0px 5px;
+  margin-right: 11px;
+}
+
+.sistema #main .application .container .breadcrumb ul li:nth-last-child(1) {
+  background-color: #FFF;
+  border: 1px solid #081946;
+  color: #B0B7C8;
+  margin-right: 0px;
+}
+
+.sistema #main .application .container .breadcrumb ul li a {
+  color: inherit;
+}
+
+.sistema #main .application .container .controls .tools > div {
+  margin-right: 1em;
+}
+
+.sistema #main .application .container .controls .tools > div:nth-last-child(1) {
+  margin-right: 0em;
+}
+
+.sistema #main .application .container .header {
+  padding: 1em 0em;
+}
+
+.sistema #main .application .container .header ul li {
+  margin-right: 50px;
+}
+
+.sistema #main .application .container .header .top {
+  padding-bottom: 1em;
+}
+
+.sistema #main .application .container .add-form .group {
+  justify-content: initial;
+}
+
+.sistema #main .application .container .add-form .group .form-group {
+  margin-right: 10em;
+}
+
+.sistema #main .application .container .add-form .group .form-group:nth-last-child(1) {
+  margin-right: 0em;
+}
+
+.sistema #main .application .container .footer {
+  position: relative;
+  bottom: 0;
+  width: inherit;
+  background: #F3F5F8;
+  background: transparent;
+  height: 86px;
+}
+
+.sistema #main .application .container .footer .actions ul {
+  display: none;
+  margin-top: -107px;
+  position: absolute;
+  background: white;
+  box-shadow: 0 6px 11px 0 rgba(240, 128, 52, 0.25);
+  padding: 0.3em 0.5em;
+}
+
+.sistema #main .application .container .footer .actions ul li {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+}
+
+.sistema #main .application .container .footer .actions ul li a {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  font-family: "Fira Sans";
+  color: #8E96A2;
+  font-size: 14px;
+  font-weight: 500;
+  transition: 0.3s ease-out;
+}
+
+.sistema #main .application .container .footer .actions ul li a:hover {
+  opacity: 0.5;
+}
+
+.sistema #main .application .container .footer .actions ul li a span {
+  width: 10px;
+  height: 10px;
+  border-radius: 500px;
+  box-sizing: border-box;
+  margin-right: 7px;
+}
+
+.sistema #main .application .container .footer .actions ul li a span.danger {
+  background-color: #EB0A0A;
+}
+
+.sistema #main .application .container .footer .actions ul li a span.success {
+  background-color: #21B700;
+}
+
+.sistema #main .application .container .footer .actions ul li a span.default {
+  background-color: #8E96A2;
+}
+
+.sistema #main .application .container .footer .actions button {
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+.sistema #main .application .container .leitura {
+  max-width: 700px;
+}
+
+.sistema #main .application .container .leitura .leitura-header {
+  margin-bottom: 30px;
+}
+
+.sistema #main .application .container .leitura .leitura-header h1 {
+  color: #27544D;
+}
+
+@media screen and (max-width: 480px) {
+  .sistema #main .application .container .leitura .leitura-header h1 {
+    font-size: 21px;
+  }
+}
+
+.sistema #main .application .container .leitura .leitura-header ul {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 480px) {
+  .sistema #main .application .container .leitura .leitura-header ul {
+    flex-wrap: wrap;
+  }
+}
+
+.sistema #main .application .container .leitura .leitura-header ul li {
+  margin-right: 2em;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 480px) {
+  .sistema #main .application .container .leitura .leitura-header ul li {
+    width: 50%;
+    margin-right: 0em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .sistema #main .application .container .leitura .leitura-header ul li:nth-child(1) {
+    margin-bottom: 1em;
+  }
+}
+
+.sistema #main .application .container .leitura .steps .step {
+  display: none;
+  max-width: 287px;
+}
+
+@media screen and (max-width: 480px) {
+  .sistema #main .application .container .leitura .steps .step {
+    max-width: 100%;
+  }
+}
+
+.sistema #main .application .container .leitura .steps .step h1 {
+  color: #537974;
+}
+
+@media screen and (max-width: 480px) {
+  .sistema #main .application .container .leitura .steps .step h1 {
+    font-size: 21px;
+    margin-bottom: 10px;
+  }
+}
+
+.sistema #main .application .container .leitura .steps .step h2 {
+  color: #537974;
+  margin-bottom: 25px;
+}
+
+@media screen and (max-width: 480px) {
+  .sistema #main .application .container .leitura .steps .step h2 {
+    font-size: 21px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .sistema #main .application .container .leitura .steps .step .align input {
+    width: 100%;
+  }
+}
+
+.sistema #main .application .container .leitura .steps .step .align .file {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  height: 55px;
+  color: #47AA55;
+  font-family: "Fira Sans";
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 18px;
+  text-align: center;
+  box-shadow: 0 6px 11px 0 rgba(71, 170, 85, 0.31);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sistema #main .application .container .leitura .steps .step .action {
+  display: flex;
+  justify-content: space-between;
+  max-width: 287px;
+  margin-top: 67px;
+}
+
+@media screen and (max-width: 480px) {
+  .sistema #main .application .container .leitura .steps .step .action {
+    flex-direction: column-reverse;
+    max-width: 100%;
+  }
+}
+
+.sistema #main .application .container .leitura .steps .step .action div {
+  width: 40%;
+}
+
+@media screen and (max-width: 480px) {
+  .sistema #main .application .container .leitura .steps .step .action div {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .sistema #main .application .container .leitura .steps .step .action div:nth-last-child(1) {
+    margin-bottom: 1em;
+  }
+}
+
+.sistema #main .application .container .leitura .steps .step-0 {
+  display: block;
+}
+
+.sistema #main .application .container .leitura .steps .step-0 ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 12px;
+  max-width: 281px;
+}
+
+@media screen and (max-width: 480px) {
+  .sistema #main .application .container .leitura .steps .step-0 ul {
+    max-width: 100%;
+  }
+}
+
+.sistema #main .application .container .leitura .steps .step-0 ul li {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.sistema #main .application .container .leitura .steps .step-0 ul li:nth-child(1) {
+  width: 100%;
+}
+
+.sistema #main .application .container .leitura .steps .step-0 ul li:nth-child(2) {
+  width: 58%;
+}
+
+.sistema #main .application .container .leitura .steps .step-0 ul li:nth-child(3) {
+  width: 28%;
+}
+
+.sistema #main .application .container .leitura .steps .step-0 ul li:nth-child(4) {
+  width: 100%;
+}
+
+.sistema #main .application .container .leitura .steps .step-0 ul li:nth-child(5) {
+  width: 58%;
+}
+
+.sistema #main .application .container .leitura .steps .step-0 ul li:nth-child(6) {
+  width: 28%;
+}
+
+.sistema #main .application .container .manutencao-fazer {
+  width: 700px;
+}
+
+.sistema #main .application .container .manutencao-fazer .manutencao-fazer-header {
+  margin-bottom: 30px;
+}
+
+.sistema #main .application .container .manutencao-fazer .manutencao-fazer-header ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.sistema #main .application .container .manutencao-fazer .manutencao-fazer-header ul li {
+  margin-right: 2em;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+.sistema #main .application .container .manutencao-fazer .manutencao-fazer-header ul li:nth-last-child(1) {
+  width: 100%;
+}
+
+.sistema #main .application .container .manutencao-fazer .steps .step {
+  display: none;
+  max-width: 287px;
+}
+
+.sistema #main .application .container .manutencao-fazer .steps .step .align .file {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  height: 55px;
+  color: #47AA55;
+  font-family: "Fira Sans";
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 18px;
+  text-align: center;
+  box-shadow: 0 6px 11px 0 rgba(71, 170, 85, 0.31);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sistema #main .application .container .manutencao-fazer .steps .step .action {
+  display: flex;
+  justify-content: space-between;
+  max-width: 287px;
+  margin-top: 67px;
+}
+
+.sistema #main .application .container .manutencao-fazer .steps .step .action div {
+  width: 40%;
+}
+
+.sistema #main .application .container .manutencao-fazer .steps .step-0 {
+  display: block;
+}
+
+.sistema #main .application .container .manutencao-fazer .steps .step-0 ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 12px;
+  max-width: 281px;
+}
+
+.sistema #main .application .container .manutencao-fazer .steps .step-0 ul li {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.sistema #main .application .container .manutencao-fazer .steps .step-0 ul li:nth-child(1) {
+  width: 100%;
+}
+
+.sistema #main .application .container .manutencao-fazer .steps .step-0 ul li:nth-child(2) {
+  width: 58%;
+}
+
+.sistema #main .application .container .manutencao-fazer .steps .step-0 ul li:nth-child(3) {
+  width: 28%;
+}
+
+.sistema #main .application .container .manutencao-fazer .steps .step-0 ul li:nth-child(4) {
+  width: 100%;
+}
+
+.sistema #main .application .container .manutencao-fazer .steps .step-0 ul li:nth-child(5) {
+  width: 58%;
+}
+
+.sistema #main .application .container .manutencao-fazer .steps .step-0 ul li:nth-child(6) {
+  width: 28%;
+}
+
+.sistema #login {
+  background: #2a4f77;
+  min-height: 100vh;
+}
+
+.sistema #login .box {
+  width: 532px;
+  box-sizing: border-box;
+  padding: 2em 3em 3em 3em;
+}
+
+.sistema #login .box .logo {
+  margin-bottom: 45px;
+}
+
+.sistema #login .box .logo img {
+  width: 200px;
+}
+
+.sistema #login .box h1 {
+  margin-bottom: 35px;
+}
+
+.sistema #login .box form .align {
+  margin-bottom: 20px;
+}
+
+.sistema #login .box form .align span {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.sistema #login .box form .align:nth-child(3) {
+  margin-bottom: 51px;
+}
+
+.sistema #login .box form .align:nth-last-child(0) {
+  margin-bottom: 0px;
+}
+
+.sistema #login .box form .align .link {
+  font-size: 15px;
+}
+
+.sistema #login .box form .buttons ul li {
+  margin-bottom: 20px;
+}
+
+.sistema #login .box form .buttons ul li:nth-last-child(1) {
+  margin-bottom: 0px;
+}
+
+.sistema #recuperar {
+  background: #CBD9FF;
+  min-height: 100vh;
+}
+
+.sistema #recuperar .box {
+  width: 532px;
+  box-sizing: border-box;
+  padding: 2em 3em 3em 3em;
+}
+
+.sistema #recuperar .box .logo {
+  margin-bottom: 45px;
+}
+
+.sistema #recuperar .box .logo img {
+  width: 200px;
+}
+
+.sistema #recuperar .box h1 {
+  margin-bottom: 14px;
+}
+
+.sistema #recuperar .box form .align {
+  margin-bottom: 20px;
+}
+
+.sistema #recuperar .box form .align span {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.sistema #recuperar .box form .align:nth-child(1) {
+  margin-bottom: 51px;
+}
+
+.sistema #recuperar .box form .align:nth-last-child(0) {
+  margin-bottom: 0px;
+}
+
+.sistema #recuperar .box form .align .link {
+  font-size: 15px;
+}
+
+.sistema #recuperar .box form .buttons ul li {
+  margin-bottom: 20px;
+}
+
+.sistema #recuperar .box form .buttons ul li:nth-last-child(1) {
+  margin-bottom: 0px;
+}
+
+.sistema #cadastro {
+  background: #CBD9FF;
+  height: auto;
+  min-height: 100vh;
+  padding: 30px 0px;
+}
+
+.sistema #cadastro .box {
+  width: 532px;
+  box-sizing: border-box;
+  padding: 2em 3em 3em 3em;
+}
+
+.sistema #cadastro .box .logo {
+  margin-bottom: 45px;
+}
+
+.sistema #cadastro .box .logo img {
+  width: 200px;
+}
+
+.sistema #cadastro .box h1 {
+  margin-bottom: 35px;
+}
+
+.sistema #cadastro .box form .align {
+  margin-bottom: 20px;
+}
+
+.sistema #cadastro .box form .align span {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.sistema #cadastro .box form .align:nth-last-child(0) {
+  margin-bottom: 0px;
+}
+
+.sistema #cadastro .box form .buttons ul li {
+  margin-bottom: 20px;
+}
+
+.sistema #cadastro .box form .buttons ul li:nth-last-child(1) {
+  margin-bottom: 0px;
+}
+
+.sistema #reset {
+  background: #CBD9FF;
+  height: auto;
+  min-height: 100vh;
+  padding: 30px 0px;
+}
+
+.sistema #reset .box {
+  width: 532px;
+  box-sizing: border-box;
+  padding: 2em 3em 3em 3em;
+}
+
+.sistema #reset .box .logo {
+  margin-bottom: 45px;
+}
+
+.sistema #reset .box .logo img {
+  width: 200px;
+}
+
+.sistema #reset .box h1 {
+  margin-bottom: 14px;
+}
+
+.sistema #reset .box form .align {
+  margin-bottom: 20px;
+}
+
+.sistema #reset .box form .align span {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.sistema #reset .box form .align:nth-child(2) {
+  margin-bottom: 51px;
+}
+
+.sistema #reset .box form .align:nth-last-child(0) {
+  margin-bottom: 0px;
+}
+
+.sistema #reset .box form .align .link {
+  font-size: 15px;
+}
+
+.sistema #reset .box form .buttons ul li {
+  margin-bottom: 20px;
+}
+
+.sistema #reset .box form .buttons ul li:nth-last-child(1) {
+  margin-bottom: 0px;
+}
+
+.sistema #sidebar {
+  width: 15%;
+  background-color: #EBEBEB;
+  min-height: -moz-available;
+  min-height: -webkit-fill-available;
+  min-height: fill-available;
+  position: fixed;
+}
+
+@media screen and (max-width: 1024px) {
+  .sistema #sidebar {
+    width: 18%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sistema #sidebar {
+    width: 0%;
+    display: none;
+  }
+}
+
+.sistema #sidebar .logo {
+  margin-top: 25px;
+}
+
+.sistema #sidebar .logo img {
+  width: 145px;
+}
+
+@media screen and (max-width: 1024px) {
+  .sistema #sidebar .logo img {
+    width: 120px;
+  }
+}
+
+.sistema #sidebar ul {
+  margin-top: 39px;
+  margin-left: 18px;
+}
+
+@media screen and (max-width: 1024px) {
+  .sistema #sidebar ul {
+    margin-left: 9px;
+  }
+}
+
+.sistema #sidebar ul li {
+  margin-bottom: 2px;
+}
+
+.sistema #sidebar ul li:nth-last-child(1) {
+  margin-bottom: 0px;
+}
+
+.sistema #sidebar ul li.active {
+  border-radius: 100px 0 0 100px;
+  background-color: rgba(176, 183, 200, 0.25);
+}
+
+.sistema #sidebar ul li.active a {
+  color: #081946;
+}
+
+.sistema #sidebar ul li.active a i {
+  color: #081946;
+}
+
+.sistema #sidebar ul li a {
+  display: flex;
+  color: #B0B7C8;
+  font-family: "Montserrat";
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 21px;
+  padding: 12px 0px 12px 23px;
+  box-sizing: border-box;
+  letter-spacing: -0.6px;
+}
+
+.sistema #sidebar ul li a i {
+  margin-right: 10px;
+  color: #B0B7C8;
+  font-size: 21px;
+}
+
+.sistema #sidebar .user {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(176, 183, 200, 0.25);
+  width: 100%;
+  padding: 20px 0px;
+  height: 71px;
+  transition: 0.3s ease-out;
+  cursor: pointer;
+}
+
+.sistema #sidebar .user:hover {
+  background-color: rgba(176, 183, 200, 0.5);
+}
+
+.sistema #sidebar .user a {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.sistema #sidebar .user a .image {
+  width: 41px;
+  height: 41px;
+  border-radius: 500px;
+  background-image: url("/img/avatar/default.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 7px;
+}
+
+.sistema #sidebar .user a .text {
+  min-width: 50%;
+}
+
+.sistema #sidebar .user a .text span {
+  color: #B0B7C8;
+  font-family: "Montserrat";
+  font-size: 9px;
+  line-height: 13px;
+}
+
+.sistema #sidebar .user a .text i {
+  color: #B0B7C8;
+  font-size: 13px;
+}
+
+.sistema .dashboard {
+  padding: 2em 2em;
+}
+
+@media screen and (max-width: 1024px) {
+  .sistema .dashboard {
+    padding: 2em;
+  }
+}
+
+.sistema .dashboard .counters ul {
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .sistema .dashboard .counters ul {
+    flex-wrap: wrap;
+  }
+}
+
+.sistema .dashboard .counters ul li {
+  width: 22%;
+  border: 0.5px solid #D9D9D9;
+  border-radius: 3px;
+  padding: 1em 2em;
+  transition: 0.3s ease-out;
+  box-sizing: border-box;
+  margin-right: 2em;
+}
+
+@media screen and (max-width: 1440px) {
+  .sistema .dashboard .counters ul li {
+    padding: 1em 1em;
+    width: 23%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .sistema .dashboard .counters ul li {
+    padding: 1em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sistema .dashboard .counters ul li {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sistema .dashboard .counters ul li:nth-child(1) {
+    margin-bottom: 1em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sistema .dashboard .counters ul li:nth-child(2) {
+    margin-bottom: 1em;
+  }
+}
+
+.sistema .dashboard .counters ul li:hover {
+  background-color: rgba(8, 25, 70, 0.25);
+}
+
+.sistema .dashboard .counters ul li a {
+  display: flex;
+  flex-direction: column;
+  color: #B0B7C8;
+}
+
+.sistema .dashboard .counters ul li a:hover {
+  color: #FFF;
+}
+
+.sistema .dashboard .counters ul li a span {
+  display: flex;
+  align-items: center;
+  color: inherit;
+}
+
+.sistema .dashboard .counters ul li a span:nth-child(1) {
+  margin-bottom: 1em;
+}
+
+@media screen and (max-width: 768px) {
+  .sistema .dashboard .counters ul li a span:nth-child(1) {
+    height: 32px;
+  }
+}
+
+.sistema .dashboard .counters ul li a span i {
+  margin-right: 0em;
+}
+
+.sistema .dashboard .itens {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3em;
+}
+
+@media screen and (max-width: 1024px) {
+  .sistema .dashboard .itens {
+    flex-direction: column;
+    margin-top: 1em;
+  }
+}
+
+.sistema .dashboard .itens .item {
+  width: 48%;
+  padding: 2em 0em;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1366px) {
+  .sistema .dashboard .itens .item {
+    padding: 1em;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .sistema .dashboard .itens .item {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .sistema .dashboard .itens .item {
+    padding: 1em 0em;
+  }
+}
+
+.sistema .dashboard .itens .item h1 .button {
+  margin-top: 1em;
+}
+
+.sistema .dashboard .itens .item .button {
+  margin-top: 1em;
+}
+
